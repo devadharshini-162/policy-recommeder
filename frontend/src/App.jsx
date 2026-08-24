@@ -1,0 +1,2 @@
+import { NavLink, Route, Routes } from 'react-router-dom'; import QuoteForm from './components/QuoteForm'; import QuoteHistory from './components/QuoteHistory';
+export default function App(){return <main className="page"><header><div><h1>PolicyWise</h1><p>Insurance premium calculator</p></div><nav><NavLink to="/">New Quote</NavLink><NavLink to="/history">History</NavLink></nav></header><Routes><Route path="/" element={<QuoteForm/>}/><Route path="/history" element={<QuoteHistory/>}/></Routes></main>}

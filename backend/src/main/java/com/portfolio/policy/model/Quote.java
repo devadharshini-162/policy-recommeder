@@ -1,0 +1,10 @@
+package com.portfolio.policy.model;
+import jakarta.persistence.*;
+import java.time.LocalDateTime;
+import java.util.*;
+@Entity @Table(name="quotes") public class Quote {
+ @Id @GeneratedValue(strategy=GenerationType.IDENTITY) private Long id;
+ private LocalDateTime timestamp; private Integer age; private String gender; private Boolean smoker; private Double bmi; private String coverageType; private Double sumInsured; private String incomeBracket; private Integer healthRiskScore; private Double finalPremium; private String recommendedTier;
+ @ElementCollection @CollectionTable(name="quote_conditions", joinColumns=@JoinColumn(name="quote_id")) @Column(name="condition_name") private List<String> preExistingConditions = new ArrayList<>();
+ public Quote() {} public Long getId(){return id;} public LocalDateTime getTimestamp(){return timestamp;} public void setTimestamp(LocalDateTime v){timestamp=v;} public Integer getAge(){return age;} public void setAge(Integer v){age=v;} public String getGender(){return gender;} public void setGender(String v){gender=v;} public Boolean getSmoker(){return smoker;} public void setSmoker(Boolean v){smoker=v;} public Double getBmi(){return bmi;} public void setBmi(Double v){bmi=v;} public String getCoverageType(){return coverageType;} public void setCoverageType(String v){coverageType=v;} public Double getSumInsured(){return sumInsured;} public void setSumInsured(Double v){sumInsured=v;} public String getIncomeBracket(){return incomeBracket;} public void setIncomeBracket(String v){incomeBracket=v;} public Integer getHealthRiskScore(){return healthRiskScore;} public void setHealthRiskScore(Integer v){healthRiskScore=v;} public Double getFinalPremium(){return finalPremium;} public void setFinalPremium(Double v){finalPremium=v;} public String getRecommendedTier(){return recommendedTier;} public void setRecommendedTier(String v){recommendedTier=v;} public List<String> getPreExistingConditions(){return preExistingConditions;} public void setPreExistingConditions(List<String> v){preExistingConditions=v==null?new ArrayList<>():v;}
+}
