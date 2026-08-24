@@ -1,2 +1,3 @@
 package com.portfolio.policy.dto;
-public record PremiumResponse(double basePremium, double finalPremium, Breakdown breakdown, String recommendedTier, double confidence) { public record Breakdown(double ageFactor, double smokerFactor, double bmiFactor, double conditionsLoading) {} }
+import java.util.Map;
+public record PremiumResponse(double basePremium, double finalPremium, Breakdown breakdown, String recommendedTier, double confidence, Map<String, TierInfo> tierData) { public record Breakdown(double ageFactor, double smokerFactor, double bmiFactor, double conditionsLoading) {} }

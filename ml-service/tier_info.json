@@ -1,0 +1,143 @@
+{
+  "LIFE": {
+    "BASIC": {
+      "tagline": "Simple life cover for essential family protection.",
+      "benefits": [
+        "Affordable term cover with a modest sum-insured range.",
+        "Lump-sum payout to nominated family members on death.",
+        "Easy policy structure with few optional add-ons.",
+        "Suitable for getting started with basic financial protection."
+      ],
+      "risks": [
+        "Lower cover cap may not fully replace a high household income.",
+        "Critical illness, accidental death, and disability add-ons may be limited or unavailable.",
+        "May need an upgrade as income, debts, or dependants increase."
+      ],
+      "idealFor": "Best for younger applicants with a lower income bracket, limited financial dependants, or a higher health-risk score seeking affordable baseline cover."
+    },
+    "STANDARD": {
+      "tagline": "Balanced life protection for growing responsibilities.",
+      "benefits": [
+        "Higher sum-insured options for loans, children, and household expenses.",
+        "Optional accidental death or critical illness riders.",
+        "Flexible policy term choices to match earning years.",
+        "Good balance between premium cost and family protection."
+      ],
+      "risks": [
+        "Add-ons increase the premium and may have separate eligibility rules.",
+        "Cover may still be insufficient for very high-value liabilities or long-term wealth planning.",
+        "Pre-existing health conditions can affect pricing or rider availability."
+      ],
+      "idealFor": "Suited to mid-income professionals or families with dependants, loans, and a moderate health-risk score."
+    },
+    "PREMIUM": {
+      "tagline": "High-value life protection for long-term financial confidence.",
+      "benefits": [
+        "High sum-insured limits designed for larger incomes and liabilities.",
+        "Broader optional protection for accidental death, disability, and critical illness.",
+        "Priority service and more flexible beneficiary or payout planning options.",
+        "Can better support education costs, mortgages, and long-term family goals."
+      ],
+      "risks": [
+        "Higher premiums require a stable budget over the policy term.",
+        "Detailed medical disclosure and underwriting may be required.",
+        "Extra riders still have specific exclusions and waiting periods."
+      ],
+      "idealFor": "Best for high-income applicants with lower health risk, larger dependants or liabilities, and a need for substantial life cover."
+    }
+  },
+  "HEALTH": {
+    "BASIC": {
+      "tagline": "Essential hospital cover for everyday medical protection.",
+      "benefits": [
+        "Entry-level hospitalisation cover up to a lower sum-insured cap.",
+        "Covers many common inpatient treatments and emergency admissions.",
+        "Lower premium for budget-conscious households.",
+        "Useful as a first health policy or a backup to employer cover."
+      ],
+      "risks": [
+        "Co-payments, room-rent limits, or sub-limits may apply.",
+        "Lower cover can be exhausted quickly during major treatment.",
+        "More exclusions or longer waiting periods for certain conditions."
+      ],
+      "idealFor": "Suited to younger or lower-income applicants with moderate-to-higher health risk who need basic protection at a manageable cost."
+    },
+    "STANDARD": {
+      "tagline": "Well-rounded health cover for regular family needs.",
+      "benefits": [
+        "Mid-range sum insured for hospitalisation, surgery, and common treatments.",
+        "Broader network hospital access and fewer room-rent restrictions.",
+        "Optional outpatient, maternity, or critical illness add-ons.",
+        "Balanced co-pay and deductible choices."
+      ],
+      "risks": [
+        "Some specialist treatments may still have sub-limits or waiting periods.",
+        "Premiums rise with age, lifestyle factors, and medical history.",
+        "Outpatient and dental care may require optional add-ons."
+      ],
+      "idealFor": "A strong fit for mid-income individuals or families with average health risk and a need for dependable day-to-day medical cover."
+    },
+    "PREMIUM": {
+      "tagline": "Comprehensive health protection with higher treatment flexibility.",
+      "benefits": [
+        "High sum-insured limits for major illnesses and longer hospital stays.",
+        "Broader treatment options, premium hospital access, and fewer sub-limits.",
+        "Enhanced benefits such as annual check-ups, global emergency support, or wellness services.",
+        "Priority claims assistance and wider add-on choices."
+      ],
+      "risks": [
+        "Premiums are significantly higher than entry-level plans.",
+        "Existing conditions may still have waiting periods or underwriting conditions.",
+        "Premium features may not be worthwhile for users with minimal healthcare needs."
+      ],
+      "idealFor": "Best for higher-income applicants with lower health risk, families seeking wider treatment choice, or people wanting stronger protection against large medical bills."
+    }
+  },
+  "VEHICLE": {
+    "BASIC": {
+      "tagline": "Core vehicle protection for budget-minded drivers.",
+      "benefits": [
+        "Meets essential third-party liability protection requirements.",
+        "Low premium for older vehicles or low-usage drivers.",
+        "Covers legal liability for injury or property damage to others.",
+        "Simple policy with minimal add-on complexity."
+      ],
+      "risks": [
+        "Own vehicle damage, theft, and natural-disaster cover may be excluded.",
+        "Roadside assistance, consumables, and zero-depreciation are generally not included.",
+        "You may pay most repair costs yourself after an accident."
+      ],
+      "idealFor": "Suited to lower-income drivers, older low-value vehicles, or drivers with a higher risk score who mainly need essential legal protection."
+    },
+    "STANDARD": {
+      "tagline": "Practical all-round cover for everyday driving.",
+      "benefits": [
+        "Includes third-party liability plus own-damage cover for many accidents.",
+        "Protection against theft, fire, and selected natural disasters.",
+        "Optional roadside assistance and personal accident cover.",
+        "Suitable balance of premium, deductible, and repair protection."
+      ],
+      "risks": [
+        "Depreciation and consumable parts can reduce claim payouts.",
+        "Some add-ons may be optional and increase the final premium.",
+        "Claims can affect the no-claim bonus at renewal."
+      ],
+      "idealFor": "Best for mid-income owners of regularly used cars or bikes who want meaningful repair protection without premium-level pricing."
+    },
+    "PREMIUM": {
+      "tagline": "Enhanced vehicle protection for high-value cars and confident driving.",
+      "benefits": [
+        "Comprehensive own-damage cover with higher insured-value flexibility.",
+        "Premium add-ons such as zero depreciation, engine protection, and roadside assistance.",
+        "Priority claims support and access to wider cashless repair networks.",
+        "Stronger protection for newer, higher-value, or frequently driven vehicles."
+      ],
+      "risks": [
+        "Higher premium may not be cost-effective for an older low-value vehicle.",
+        "Some claims still require deductibles, documentation, or authorised repair centres.",
+        "Add-on cover has usage limits and does not cover every type of wear and tear."
+      ],
+      "idealFor": "Suited to higher-income, lower-risk drivers with newer or higher-value vehicles and a preference for lower out-of-pocket repair costs."
+    }
+  }
+}
